@@ -1,0 +1,14 @@
+{
+  "name": "todolist-nodejs",
+  "version": "1.0.0",
+  "description": "Projeto TodoListEmNode",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Guilherme",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
