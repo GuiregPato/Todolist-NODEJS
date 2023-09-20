@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 require ('dotenv').config()
 
 const userDB = process.env.userDB
-const passDB = encodeURIComponent(process.env.passDB)
+const passDB = process.env.passDB
 
 const connectToDb = () => {
   mongoose.connect(
